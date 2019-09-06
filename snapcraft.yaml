@@ -1,8 +1,8 @@
-name: pi3
+name: niryo-arm
 version: 16.04-0.7
-summary: Raspberry Pi 3 support package
+summary: Raspberry Pi 3 support package, specialized for Niryo arm
 description: |
- Support files for booting Raspberry Pi
+ Support files for booting Raspberry Pi, specialized for Niryo arm
 type: gadget
 architectures:
   - armhf

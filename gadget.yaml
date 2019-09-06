@@ -1,6 +1,6 @@
 device-tree: bcm2710-rpi-3-b.dtb
 volumes:
-  pi3:
+  niryo-arm:
     schema: mbr
     bootloader: u-boot
     structure:
@@ -11,3 +11,8 @@ volumes:
         content:
           - source: boot-assets/
             target: /
+
+connections:
+  # connect abeato-niryo-one:network-manager to network-manager
+  -  plug: fLxiTsuNeTuKbkcNPACxEcDpwJCJ8Ogt:network-manager
+     slot: RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy:service

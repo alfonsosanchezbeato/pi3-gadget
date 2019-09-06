@@ -57,3 +57,8 @@ core_freq=250
 enable_uart=1
 
 dtoverlay=vc4-kms-v3d
+
+# For niryo
+init_uart_clock=16000000
+dtparam=i2c1=on
+dtparam=uart0=on
