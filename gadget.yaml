@@ -16,3 +16,6 @@ connections:
   # connect abeato-niryo-one:network-manager to network-manager
   -  plug: fLxiTsuNeTuKbkcNPACxEcDpwJCJ8Ogt:network-manager
      slot: RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy:service
+  # connect niryo-sequence:robot-data to abeato-niryo-one:robot-data
+  -  plug: ByCgXJNW0cXoppKoKUNdPQOmDzjzQOlU:robot-data
+     slot: fLxiTsuNeTuKbkcNPACxEcDpwJCJ8Ogt:robot-data
